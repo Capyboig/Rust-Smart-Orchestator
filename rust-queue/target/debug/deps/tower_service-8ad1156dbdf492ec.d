@@ -1,0 +1,7 @@
+C:\Users\Capy\Desktop\DAM\RUST\Orquestador-Rust\rust-queue\target\debug\deps\tower_service-8ad1156dbdf492ec.d: C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-service-0.3.3\src\lib.rs
+
+C:\Users\Capy\Desktop\DAM\RUST\Orquestador-Rust\rust-queue\target\debug\deps\libtower_service-8ad1156dbdf492ec.rlib: C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-service-0.3.3\src\lib.rs
+
+C:\Users\Capy\Desktop\DAM\RUST\Orquestador-Rust\rust-queue\target\debug\deps\libtower_service-8ad1156dbdf492ec.rmeta: C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-service-0.3.3\src\lib.rs
+
+C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tower-service-0.3.3\src\lib.rs:
