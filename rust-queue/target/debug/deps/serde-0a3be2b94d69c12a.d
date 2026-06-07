@@ -1,0 +1,14 @@
+C:\Users\Capy\Desktop\DAM\RUST\Orquestador-Rust\rust-queue\target\debug\deps\serde-0a3be2b94d69c12a.d: C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\Capy\Desktop\DAM\RUST\Orquestador-Rust\rust-queue\target\debug\build\serde-acaf0dcf5e0095a8\out/private.rs
+
+C:\Users\Capy\Desktop\DAM\RUST\Orquestador-Rust\rust-queue\target\debug\deps\libserde-0a3be2b94d69c12a.rlib: C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\Capy\Desktop\DAM\RUST\Orquestador-Rust\rust-queue\target\debug\build\serde-acaf0dcf5e0095a8\out/private.rs
+
+C:\Users\Capy\Desktop\DAM\RUST\Orquestador-Rust\rust-queue\target\debug\deps\libserde-0a3be2b94d69c12a.rmeta: C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\Capy\Desktop\DAM\RUST\Orquestador-Rust\rust-queue\target\debug\build\serde-acaf0dcf5e0095a8\out/private.rs
+
+C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\Capy\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Users\Capy\Desktop\DAM\RUST\Orquestador-Rust\rust-queue\target\debug\build\serde-acaf0dcf5e0095a8\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\Capy\\Desktop\\DAM\\RUST\\Orquestador-Rust\\rust-queue\\target\\debug\\build\\serde-acaf0dcf5e0095a8\\out

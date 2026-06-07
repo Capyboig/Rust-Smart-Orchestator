@@ -4,3 +4,17 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+# 1. El motor asíncrono (Los hilos verdes)
+tokio = { version = "1.35", features = ["full"] }
+
+# 2. El conector a la base de datos SQLite embebida
+sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "sqlite", "uuid"] }
+
+# 3. El cliente HTTP para disparar peticiones a Java y Python
+reqwest = { version = "0.11", features = ["json"] }
+
+# 4. Los traductores de JSON y generadores de IDs únicos
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.6", features = ["v4", "serde"] }
+dotenvy = "0.15" # Carga variables del archivo .env
