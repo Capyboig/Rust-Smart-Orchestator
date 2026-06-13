@@ -73,7 +73,7 @@ pub async fn registrar_fallo_tarea(pool: &SqlitePool, id: &str, retries_actuales
     sqlx::query(
         r#"
         UPDATE tasks 
-        SET status = ?. retries = ?
+        SET status = ?, retries = ?
         WHERE id = ?
         "#
     )

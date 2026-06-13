@@ -8,7 +8,7 @@ pub async fn enviar_a_worker(cliente: &Client, tarea: &Tarea) -> Result<String, 
     // Si target_worker es "java-worker", la URL será http://java-worker:8080/procesar
     let url = format!("http://{}:8080/procesar", tarea.target_worker);
 
-    println!("🚀 Enviando Tarea {} hacia {}", tarea.id, url);
+    println!("Enviando Tarea {} hacia {}", tarea.id, url);
 
     // Ejecutamos la petición HTTP POST
     let respuesta = cliente
