@@ -1,0 +1,9 @@
+database:
+  url: "sqlite://queue.db"
+  max_connections: 5
+
+server:
+  port: 3000
+
+worker:
+  timeout_seconds: 5
