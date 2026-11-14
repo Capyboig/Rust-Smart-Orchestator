@@ -46,6 +46,14 @@ El sistema implementa un patrón de procesamiento asíncrono no bloqueante respa
    cd Rust-Smart-Orchestator/rust-queue
 
 
+
+
+
+
+
+
+1. Base de datos
+```bash
    CREATE TABLE IF NOT EXISTS tasks (
     id TEXT PRIMARY KEY,
     status TEXT NOT NULL,
