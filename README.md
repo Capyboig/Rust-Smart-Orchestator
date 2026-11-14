@@ -12,3 +12,45 @@ Un orquestador y gestor de colas de tareas asíncronas de alto rendimiento y baj
 ## 🚀 Arquitectura y Diseño
 
 El sistema implementa un patrón de procesamiento asíncrono no bloqueante respaldado por **Tokio** y una capa de persistencia transaccional mediante **SQLx**:
+
+
+
+### Características Principales
+* **Ejecución Asíncrona Concurrente:** Procesamiento de eventos y tareas sin bloqueo de hilos utilizando el runtime `tokio`.
+* **Pool de Conexiones Optimizado:** Gestión de conexiones SQLite con `SqlitePoolOptions` (reutilización de descriptores, timeouts y concurrencia controlada).
+* **Persistencia Fiable:** Registro transaccional de estados (`PENDING`, `PROCESSING`, `COMPLETED`, `FAILED`) con reintentos programados.
+* **Payload Acelerado con Serde:** Serialización y tipado estricto de estructuras de tareas con identificación única mediante UUID v4.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+* **Lenguaje:** Rust (Edición 2024).
+* **Runtime Asíncrono:** `tokio` (con características completas multi-thread).
+* **Capa de Persistencia:** `sqlx` (con soporte para `sqlite`, `runtime-tokio-rustls`, `uuid`).
+* **Serialización:** `serde` y `serde_json`.
+* **Variables de Entorno:** `dotenvy`.
+
+---
+
+
+## ⚙️ Puesta en Marcha
+
+### Prerrequisitos
+* [Rust y Cargo](https://www.rust-lang.org/tools/install) (versión 1.75 o superior recomendada).
+
+### Configuración
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Capyboig/Rust-Smart-Orchestator.git
+   cd Rust-Smart-Orchestator/rust-queue
+
+
+   CREATE TABLE IF NOT EXISTS tasks (
+    id TEXT PRIMARY KEY,
+    status TEXT NOT NULL,
+    payload TEXT NOT NULL,
+    target_worker TEXT NOT NULL,
+    retries INTEGER NOT NULL DEFAULT 0,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
